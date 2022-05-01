@@ -1,13 +1,5 @@
 package com.technews.controller;
 
-import com.technews.repository.CommentRepository;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.http.HttpStatus;
-import org.springframework.web.bind.annotation.*;
-
-public class CommentController {
-    package com.technews.controller;
-
 import com.technews.model.Comment;
 import com.technews.repository.CommentRepository;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -53,4 +45,3 @@ import java.util.List;
             repository.deleteById(id);
         }
     }
-}
